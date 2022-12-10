@@ -25,6 +25,11 @@ Group Members:
 
 ## 2. Kalian diminta untuk melakukan drop semua TCP dan UDP dari luar Topologi kalian pada server yang merupakan DHCP Server demi menjaga keamanan.
 
+#Buka dan jalankan ```WISE``` yang isinya seperti berikut
+![image](https://user-images.githubusercontent.com/81352414/206863936-2b8c3681-8438-4091-8f26-55e8aa1c35c0.png)
+
+#Lalu di ```BlackBell``` kita masukkan command ```nmap -sU -p 67 10.38.7.131``` yang mana itu adalah dhcp dari ```WISE```. Terlihat bahwa di sana tertulis ```Filtered``` yang menandakan bahwa berhasil
+![image](https://user-images.githubusercontent.com/81352414/206864008-119637dd-6d13-44d0-9162-2aa8e6f9ea87.png)
 
 ## 3. Loid meminta kalian untuk membatasi DHCP dan DNS Server hanya boleh menerima maksimal 2 koneksi ICMP secara bersamaan menggunakan iptables, selebihnya didrop.
 
