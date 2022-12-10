@@ -11,6 +11,10 @@ Group Members:
 
 ## 1. Agar topologi yang kalian buat dapat mengakses keluar, kalian diminta untuk mengkonfigurasi Strix menggunakan iptables, tetapi Loid tidak ingin menggunakan MASQUERADE.
 
+Topologi menggunakan VLSM 
+![image](https://user-images.githubusercontent.com/81352414/206863677-f1d9c123-5316-4bff-9e38-c8361656c2f1.png)
+Berikut adalah tabel dari perhitunga subnetting
+![image](https://user-images.githubusercontent.com/81352414/206863724-1787f0f9-f8d8-419d-bdf8-46b9c190a957.png)
 
 ## 2. Kalian diminta untuk melakukan drop semua TCP dan UDP dari luar Topologi kalian pada server yang merupakan DHCP Server demi menjaga keamanan.
 
