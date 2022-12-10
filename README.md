@@ -14,10 +14,17 @@ Group Members:
 - Topologi menggunakan VLSM 
 ![image](https://user-images.githubusercontent.com/81352414/206863677-f1d9c123-5316-4bff-9e38-c8361656c2f1.png)
 
-- Berikut adalah tabel dari perhitunga subnetting
+- Berikut adalah tabel dari perhitungan subnetting
 ![image](https://user-images.githubusercontent.com/81352414/206863724-1787f0f9-f8d8-419d-bdf8-46b9c190a957.png)
 
+- iptables paling bawah sudah tidak menggunakan ```masquerade```
+![image](https://user-images.githubusercontent.com/81352414/206863811-d9949d04-e431-448e-a321-73b436df8039.png)
+
+- Hasil dari ping google
+![image](https://user-images.githubusercontent.com/81352414/206863828-bb2aa23b-9a82-4418-8bab-9e043f4e7583.png)
+
 ## 2. Kalian diminta untuk melakukan drop semua TCP dan UDP dari luar Topologi kalian pada server yang merupakan DHCP Server demi menjaga keamanan.
+
 
 ## 3. Loid meminta kalian untuk membatasi DHCP dan DNS Server hanya boleh menerima maksimal 2 koneksi ICMP secara bersamaan menggunakan iptables, selebihnya didrop.
 
